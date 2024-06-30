@@ -35,8 +35,8 @@ return
                 }
 
                 local colors = {
-                        fg = get_hl('Normal').foreground or '#ff0000',
-                        bg = get_hl('Normal').background or '#ff0000',
+                        bg = get_hl('StatusLine').background or '#ff0000',
+                        fg = get_hl('StatusLine').foreground or '#ff0000',
                 }
 
                 local betterauto = {
